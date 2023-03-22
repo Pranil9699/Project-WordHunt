@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>userdetails</servlet-name>
+  	<display-name>userdetails</display-name>
+  	<description></description>
+  	<servlet-class>com.searchbar.controller.userdetails</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>userlogin</servlet-name>
+  	<display-name>userlogin</display-name>
+  	<description></description>
+  	<servlet-class>com.searchbar.controller.userlogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>getdata</servlet-name>
+  	<display-name>getdata</display-name>
+  	<description></description>
+  	<servlet-class>com.searchbar.controller.getdata</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>errorservlet</servlet-name>
+  	<display-name>errorservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.searchbar.controller.errorservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>formservlet</servlet-name>
+  	<display-name>formservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.searchbar.controller.formservlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>updatecontent</servlet-name>
+  	<display-name>updatecontent</display-name>
+  	<description></description>
+  	<servlet-class>com.searchbar.controller.updatecontent</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>show_history</servlet-name>
+  	<display-name>show_history</display-name>
+  	<description></description>
+  	<servlet-class>com.searchbar.controller.show_history</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>userdetails</servlet-name>
+  	<url-pattern>/userdetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>userlogin</servlet-name>
+  	<url-pattern>/userlogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>getdata</servlet-name>
+  	<url-pattern>/getdata</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>errorservlet</servlet-name>
+  	<url-pattern>/errorservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>formservlet</servlet-name>
+  	<url-pattern>/formservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>updatecontent</servlet-name>
+  	<url-pattern>/updatecontent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>show_history</servlet-name>
+  	<url-pattern>/show_history</url-pattern>
+  </servlet-mapping>
+</web-app>
