@@ -17,8 +17,7 @@ public class formservlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		System.out.println("here");
-		HttpSession sessions = request.getSession();
+				HttpSession sessions = request.getSession();
 		if (sessions.getAttribute("user") != null) {
 			RequestDispatcher rs = request.getRequestDispatcher("form.jsp");
 			rs.forward(request, response);
