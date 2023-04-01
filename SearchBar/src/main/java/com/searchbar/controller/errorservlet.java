@@ -15,8 +15,6 @@ public class errorservlet extends HttpServlet {
 	HttpSession session=request.getSession();
 	session.invalidate();
 	response.sendRedirect("index.jsp");
-	
-	
 	}
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		HttpSession session=request.getSession();
